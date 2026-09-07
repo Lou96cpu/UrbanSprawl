@@ -1,12 +1,14 @@
 Package: UrbanSprawl
-Title: What the Package Does (One Line, Title Case)
+Title: Simulate Urban Land-Use Expansion
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("XW", "Lou", role = c("aut", "cre"))
+Description: 
+    Simulates spatial urban land-use expansion from raster-based
+    land-use data using user-defined urban classes and expansion
+    scenarios. The package provides stochastic spatial simulation
+    tools for exploring patterns of urban growth and sprawl.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
